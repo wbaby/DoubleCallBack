@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{6fc0867a-8ba4-4a85-92f6-dae7350a3dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK\Render">
+      <UniqueIdentifier>{0c7b17e5-4710-47f0-be94-d46c253f46f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ddd">
+      <UniqueIdentifier>{f2fa0c39-e678-4dab-ad97-8c2322c3862f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\new">
+      <UniqueIdentifier>{b05ebaa6-c08a-4f5f-b919-8c677423b673}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Internals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptSTR.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KGDI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HideImport.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="LegacyRender.h">
+      <Filter>Source Files\SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Source Files\SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="callBack.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MathASM.h">
+      <Filter>Source Files\SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongDwmRender.h">
+      <Filter>Source Files\ddd</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongDX.h">
+      <Filter>Source Files\ddd</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\ddd</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Stop.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FIntrin.h">
+      <Filter>Source Files\new</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="MathASM.asm">
+      <Filter>Source Files\SDK\Render</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\SDK\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
